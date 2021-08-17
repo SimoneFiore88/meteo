@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/meteo/static/css/main.a617e044.chunk.css",
+    "main.js": "/meteo/static/js/main.64d31b2d.chunk.js",
+    "main.js.map": "/meteo/static/js/main.64d31b2d.chunk.js.map",
+    "runtime-main.js": "/meteo/static/js/runtime-main.feb01f47.js",
+    "runtime-main.js.map": "/meteo/static/js/runtime-main.feb01f47.js.map",
+    "static/js/2.de5e4e25.chunk.js": "/meteo/static/js/2.de5e4e25.chunk.js",
+    "static/js/2.de5e4e25.chunk.js.map": "/meteo/static/js/2.de5e4e25.chunk.js.map",
+    "static/js/3.c7f96590.chunk.js": "/meteo/static/js/3.c7f96590.chunk.js",
+    "static/js/3.c7f96590.chunk.js.map": "/meteo/static/js/3.c7f96590.chunk.js.map",
+    "index.html": "/meteo/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/meteo/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.de5e4e25.chunk.js.LICENSE.txt": "/meteo/static/js/2.de5e4e25.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/meteo/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.feb01f47.js",
+    "static/js/2.de5e4e25.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.64d31b2d.chunk.js"
+  ]
+}
