@@ -1,0 +1,11 @@
+.Clear {
+  background: url("../../Assets/Clear.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  backdrop-filter: blur(10px);
+  border: 1px solid #ddd;
+  padding: 10px;
+}
