@@ -4,7 +4,7 @@ import Loader from "./components/Loader/Loader";
 import Main from "./components/Main/Main";
 
 function App() {
-  const [today, setToday] = useState();
+  const [data, setData] = useState();
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       const lat = position.coords.latitude;
@@ -15,15 +15,15 @@ function App() {
       )
         .then((response) => response.json())
         .then((data) => {
-          setToday(data.current);
+          setData(data);
         });
     });
   }, []);
 
-  return (
-    <div>
-      {today ? <Main data={today} cover={today.weather[0].main} /> : <Loader />}
-    </div>
+  return data ? (
+    <Main data={data} cover={data.current.weather[0].main} />
+  ) : (
+    <Loader />
   );
 }
 
