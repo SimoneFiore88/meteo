@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/meteo/static/css/main.c4e8caca.chunk.css",
-    "main.js": "/meteo/static/js/main.5f5c355c.chunk.js",
-    "main.js.map": "/meteo/static/js/main.5f5c355c.chunk.js.map",
-    "runtime-main.js": "/meteo/static/js/runtime-main.480bb99e.js",
-    "runtime-main.js.map": "/meteo/static/js/runtime-main.480bb99e.js.map",
-    "static/js/2.0c6a7ffb.chunk.js": "/meteo/static/js/2.0c6a7ffb.chunk.js",
-    "static/js/2.0c6a7ffb.chunk.js.map": "/meteo/static/js/2.0c6a7ffb.chunk.js.map",
-    "static/js/3.a3aba92c.chunk.js": "/meteo/static/js/3.a3aba92c.chunk.js",
-    "static/js/3.a3aba92c.chunk.js.map": "/meteo/static/js/3.a3aba92c.chunk.js.map",
+    "main.css": "/meteo/static/css/main.344d9ed6.chunk.css",
+    "main.js": "/meteo/static/js/main.314a0d99.chunk.js",
+    "main.js.map": "/meteo/static/js/main.314a0d99.chunk.js.map",
+    "runtime-main.js": "/meteo/static/js/runtime-main.35ca9ea5.js",
+    "runtime-main.js.map": "/meteo/static/js/runtime-main.35ca9ea5.js.map",
+    "xlsx.js": "/meteo/static/js/xlsx.bad9cf64.chunk.js",
+    "xlsx.js.map": "/meteo/static/js/xlsx.bad9cf64.chunk.js.map",
+    "static/js/3.491d7799.chunk.js": "/meteo/static/js/3.491d7799.chunk.js",
+    "static/js/3.491d7799.chunk.js.map": "/meteo/static/js/3.491d7799.chunk.js.map",
+    "static/js/4.0c2418c8.chunk.js": "/meteo/static/js/4.0c2418c8.chunk.js",
+    "static/js/4.0c2418c8.chunk.js.map": "/meteo/static/js/4.0c2418c8.chunk.js.map",
+    "static/js/5.f9b64193.chunk.js": "/meteo/static/js/5.f9b64193.chunk.js",
+    "static/js/5.f9b64193.chunk.js.map": "/meteo/static/js/5.f9b64193.chunk.js.map",
+    "static/js/6.d12a28cd.chunk.js": "/meteo/static/js/6.d12a28cd.chunk.js",
+    "static/js/6.d12a28cd.chunk.js.map": "/meteo/static/js/6.d12a28cd.chunk.js.map",
+    "static/js/7.cc7d7f57.chunk.js": "/meteo/static/js/7.cc7d7f57.chunk.js",
+    "static/js/7.cc7d7f57.chunk.js.map": "/meteo/static/js/7.cc7d7f57.chunk.js.map",
     "index.html": "/meteo/index.html",
-    "static/css/main.c4e8caca.chunk.css.map": "/meteo/static/css/main.c4e8caca.chunk.css.map",
-    "static/js/2.0c6a7ffb.chunk.js.LICENSE.txt": "/meteo/static/js/2.0c6a7ffb.chunk.js.LICENSE.txt",
-    "static/media/Main.module.css": "/meteo/static/media/Clear.215037a3.jpg"
+    "static/css/main.344d9ed6.chunk.css.map": "/meteo/static/css/main.344d9ed6.chunk.css.map",
+    "static/js/4.0c2418c8.chunk.js.LICENSE.txt": "/meteo/static/js/4.0c2418c8.chunk.js.LICENSE.txt",
+    "static/js/5.f9b64193.chunk.js.LICENSE.txt": "/meteo/static/js/5.f9b64193.chunk.js.LICENSE.txt",
+    "static/js/6.d12a28cd.chunk.js.LICENSE.txt": "/meteo/static/js/6.d12a28cd.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.480bb99e.js",
-    "static/js/2.0c6a7ffb.chunk.js",
-    "static/css/main.c4e8caca.chunk.css",
-    "static/js/main.5f5c355c.chunk.js"
+    "static/js/runtime-main.35ca9ea5.js",
+    "static/js/4.0c2418c8.chunk.js",
+    "static/css/main.344d9ed6.chunk.css",
+    "static/js/main.314a0d99.chunk.js"
   ]
 }
