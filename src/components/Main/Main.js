@@ -2,13 +2,24 @@ import Chart from "../Chart";
 import classes from "./Main.module.css";
 
 export default function Main(props) {
+  const data = props.data.hourly.map((el) => {
+    return {
+      date: new Intl.DateTimeFormat("it-IT", {
+        timeStyle: "short",
+        dateStyle: "short",
+      }).format(new Date(el.dt * 1000)),
+      value: el.temp,
+    };
+  });
+
+  console.log(data);
   return (
     <div
       className={"container-fluid px-md-5 min-vh-100  " + classes[props.cover]}
     >
-      <div className="row min-vh-100 align-items-center justify-content-center">
-        <div className="col-12 col-md-6 px-5">
-          <div className={classes.card}>
+      <div className="row ">
+        <div className="col-12 my-3">
+          <div className="card p-3 shadow">
             <p className="text-center display-3">
               {props.data.current.temp} °C
             </p>
@@ -26,11 +37,10 @@ export default function Main(props) {
             <p>Sunset {getTime(new Date(props.data.current.sunset * 1000))}</p>
           </div>
         </div>
-        <div
-          className={"col-12 col-md-6 px-5" + classes.card}
-          style={{ height: "400px" }}
-        >
-          <Chart data={props.data} />
+        <div className="col-12" style={{ height: "400px" }}>
+          <div className="card p-3 shadow">
+            <Chart data={data} />
+          </div>
         </div>
       </div>
     </div>

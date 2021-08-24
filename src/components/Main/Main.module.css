@@ -1,12 +1,6 @@
 .Clear {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../../Assets/Clear.jpg");
+  /*   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../Assets/Clear.jpg"); */
   background-size: cover;
   background-position: center;
-}
-
-.card {
-  backdrop-filter: blur(10px);
-  border: 1px solid #ddd;
-  padding: 10px;
 }
